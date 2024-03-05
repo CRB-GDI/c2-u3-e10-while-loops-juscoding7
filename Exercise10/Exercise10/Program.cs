@@ -56,33 +56,33 @@
 
                 Console.WriteLine("Pick one of the choices ABOVE");
                 numberpicked = int.Parse(Console.ReadLine());
-            }
-
-            //print choice
-            if (numberpicked == 1)
-            {
-                Console.WriteLine();
-                Console.WriteLine("Creating New Game ...");
-            }
-
-            if (numberpicked == 2)
-            {
-                Console.WriteLine(); 
-                Console.WriteLine("Loading game ...");
-            }
-            if (numberpicked == 3)
-            {
-                Console.WriteLine(); 
-                Console.WriteLine("Showing Options ...");
-            }
-            if (numberpicked == 4)
-            {
-                Console.WriteLine(); 
-                Console.WriteLine("Quitting game ... bye ;(");
-                Console.WriteLine("Press Alt + F4");
-            }
 
 
+                //print choice
+                if (numberpicked == 1)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Creating New Game ...");
+                }
+
+                if (numberpicked == 2)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Loading game ...");
+                }
+                if (numberpicked == 3)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Showing Options ...");
+                }
+                if (numberpicked == 4)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Quitting game ... bye ;(");
+                    Console.WriteLine("Press Alt + F4");
+                }
+
+            }
         }
     }
 }
